@@ -1,0 +1,48 @@
+{
+    "name": "winston-ws-cli",
+    "version": "0.0.1",
+    "author": {
+        "name": "Trygve Lie",
+        "email": "post@trygve-lie.com"
+    },
+    "description": "Winston WebSocket client",
+    "main": "./lib/cli",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:ladestasjoner/chargelizer-realtime.git"
+    },
+    "keywords": [
+        "log",
+        "winston",
+        "websocket",
+        "client"
+    ],
+    "homepage": "http://chargelizer-realtime.jit.su/",
+    "scripts": {
+        "pretest": "jshint ./lib/*.js ./test/*.js",
+        "test": "mocha ./test/*.js --reporter spec"
+    },
+    "contributors": [
+        {
+            "name": "Trygve Lie",
+            "email": "post@trygve-lie.com"
+        }
+    ],
+    "engines": {
+        "node": "0.10.x"
+    },
+    "bugs": {
+        "url": "https://github.com/ladestasjoner/chargelizer-realtime/issues"
+    },
+    "licenses": [],
+    "devDependencies": {
+        "jshint": "latest",
+        "mocha": "latest",
+        "chai": "latest"
+    },
+    "dependencies": {
+        "optimist": "0.6.x",
+        "winston": "0.7.x",
+        "ws": "0.4.x"
+    }
+}
